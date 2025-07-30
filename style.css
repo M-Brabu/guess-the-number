@@ -1,0 +1,51 @@
+
+           #body{
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                
+                }
+           details{
+            padding: 10px;
+           }
+           #b{
+              border-radius: 30%;
+              background-color: rgb(195, 255, 0);
+              font-weight: bolder;
+           }
+           #gb{
+            border-style: solid;
+            border-radius: 10px;
+            padding: 10%;
+            backdrop-filter: blur(10px);
+             background-color: wheat;
+            border-color: rgba(133, 117, 117, 0.2);
+            box-shadow: 0 0 20px brown;
+           }
+           #gn{
+            overflow: hidden;
+            border-style: solid;
+            padding: 10px;
+            animation-name: titler;
+            animation-timing-function: ease ;
+            animation-duration: 3s;
+            animation-iteration-count:infinite;
+            animation-fill-mode: forwards;
+
+           }
+           @keyframes titler {
+            0%{
+                border-radius: 0px;
+                background-color: rgb(255, 228, 196);
+            }
+            50%{
+                   border-radius: 10px;
+                background-color: rgb(253, 139, 0);
+            }
+            100%{
+                  border-radius: 20px;
+                background-color: rgb(255, 140, 0);
+            }
+           }
+        
