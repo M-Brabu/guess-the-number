@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/M-Brabu/guess-the-number.git'
+                git branch: 'main', url: 'https://github.com/M-Brabu/guess-the-number.git'
             }
         }
 
